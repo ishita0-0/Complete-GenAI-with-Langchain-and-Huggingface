@@ -1,0 +1,11 @@
+prefix=/workspaces/Complete-GenAI-with-Langchain-and-Huggingface/venv
+exec_prefix=/workspaces/Complete-GenAI-with-Langchain-and-Huggingface/venv
+libdir=/workspaces/Complete-GenAI-with-Langchain-and-Huggingface/venv/lib
+includedir=/workspaces/Complete-GenAI-with-Langchain-and-Huggingface/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.41.3
+Cflags: -I${includedir}/uuid
+Libs.private:  -lpthread
+Libs: -L${libdir} -luuid
