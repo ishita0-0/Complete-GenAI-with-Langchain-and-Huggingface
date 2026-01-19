@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "complete-genai-with-langchain-and-huggingface"
+version = "0.1.0"
+description = "A project for complete GenAI with Langchain and Huggingface"
+requires-python = ">=3.12"
+dependencies = [
+    # Add your dependencies here, e.g.,
+    # "langchain",
+    # "transformers",
+    # "torch",
+]
+
+[tool.setuptools]
+packages = ["src"]  # Adjust if you have a different package structure
